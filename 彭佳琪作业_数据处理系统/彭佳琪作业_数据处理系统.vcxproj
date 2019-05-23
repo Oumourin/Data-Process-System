@@ -124,10 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="bubbleSort.h" />
-    <ClInclude Include="dataStruct.h" />
-    <ClInclude Include="findData.h" />
     <ClInclude Include="initData.h" />
-    <ClInclude Include="insertSort.h" />
     <ClInclude Include="oneToTwo.h" />
     <ClInclude Include="printArray.h" />
     <ClInclude Include="selectSort.h" />
