@@ -1,14 +1,35 @@
 #pragma once
 #include<stdio.h>
+#include"dataStruct.h"
 
-void printArray(int array[11][10])
+void printArray(struct s_Array array)
 {
-	for (int row = 0; row < 10; row++)
+	if (array.size==100)
 	{
-		for (int col = 0; col < 10; col++)
+		for (int row = 0; row < 10; row++)
 		{
-			printf("%d  ", array[row][col]);
+			for (int col = 0; col < 10; col++)
+			{
+				printf("%d  ", array.array[row][col]);
+			}
+			printf("\n");
 		}
-		printf("\n");
+	}
+	else
+	{
+		for (int row = 0; row < 11; row++)
+		{
+			for (int col = 0; col < 10; col++)
+			{
+				// ½Ø¶Ï´¦Àí
+				if (row==10 && col == array.size%100)
+				{
+					printf("\n");
+					break;
+				}
+				printf("%d  ", array.array[row][col]);
+			}
+			printf("\n");
+		}
 	}
 }

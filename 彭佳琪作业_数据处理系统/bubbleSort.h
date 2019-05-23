@@ -8,10 +8,10 @@ void bubbleSort(int array[11][10])
 {
 	int newArray[110];
 	twoToOne(array, newArray);
-	for (int i = 0; i < 110-1; i++)
+	for (int i = 0; i < 100-1; i++)
 	{
 		bool sortFlag = false;
-		for (int j = 0; j < 110-i-1; j++)
+		for (int j = 0; j < 100-i-1; j++)
 		{
 			if (newArray[j]>newArray[j+1])
 			{
