@@ -123,10 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bubbleSort.h" />
     <ClInclude Include="initData.h" />
+    <ClInclude Include="oneToTwo.h" />
     <ClInclude Include="printArray.h" />
     <ClInclude Include="selectSort.h" />
     <ClInclude Include="swapNum.h" />
+    <ClInclude Include="TwoToOne.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

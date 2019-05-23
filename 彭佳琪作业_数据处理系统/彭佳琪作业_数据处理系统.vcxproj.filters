@@ -27,6 +27,15 @@
     <ClInclude Include="printArray.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="bubbleSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoToOne.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oneToTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
