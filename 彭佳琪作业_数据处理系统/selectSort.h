@@ -3,7 +3,7 @@
 
 void selectSort(int array[11][10])
 {
-	for (int row = 0; row < 10; row++)
+	for (int row = 0; row < 11; row++)
 	{
 		for (int col = 0; col < 10; col++)
 		{
@@ -12,7 +12,7 @@ void selectSort(int array[11][10])
 			int tempRow = row;
 			int tempCol = col;
 			// 对剩余值进行遍历并筛选出最小值
-			for (int i = row; i < 10; i++)
+			for (int i = row; i < 11; i++)
 			{
 				// 初始化内循环标志
 				int j;

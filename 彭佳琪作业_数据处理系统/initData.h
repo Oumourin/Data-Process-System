@@ -10,10 +10,17 @@ void initRand() {
 void initArray(int  array[11][10])
 {
 		initRand();
-		for (int row = 0; row < 10; row++)
+		for (int row = 0; row < 11; row++)
 			for (int col = 0; col < 10; col++)
 			{
-				array[row][col] = rand()%100+1;
+				if (row == 10)
+				{
+					array[row][col] = 0;
+				}
+				else
+				{
+					array[row][col] = rand() % 100 + 1;
+				}
 			}
 }
 

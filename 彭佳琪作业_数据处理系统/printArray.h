@@ -3,7 +3,7 @@
 
 void printArray(int array[11][10])
 {
-	for (int row = 0; row < 10; row++)
+	for (int row = 0; row < 11; row++)
 	{
 		for (int col = 0; col < 10; col++)
 		{
