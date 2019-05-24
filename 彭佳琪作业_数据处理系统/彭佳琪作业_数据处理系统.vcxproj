@@ -123,14 +123,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="deleteData.h" />
+    <ClInclude Include="insertData.h" />
     <ClInclude Include="bubbleSort.h" />
     <ClInclude Include="decimalToBinary.h" />
     <ClInclude Include="findData.h" />
     <ClInclude Include="initData.h" />
     <ClInclude Include="insertSort.h" />
     <ClInclude Include="oneToTwo.h" />
+    <ClInclude Include="primeNumber.h" />
     <ClInclude Include="printArray.h" />
     <ClInclude Include="selectSort.h" />
+    <ClInclude Include="statement.h" />
     <ClInclude Include="swapNum.h" />
     <ClInclude Include="TwoToOne.h" />
   </ItemGroup>

@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<time.h>
+extern int arraySize;
 
 void initRand() {
 	srand((unsigned)time(NULL));
@@ -22,5 +23,7 @@ void initArray(int  array[11][10])
 					array[row][col] = rand() % 100 + 1;
 				}
 			}
+		arraySize = 100;
 }
+
 

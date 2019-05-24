@@ -23,3 +23,22 @@ bool findData(int array[11][10], int findNum)
 	}
 	return findFlag;
 }
+
+void findDataWithCoordinate(int array[11][10], int num, int * x, int * y)
+{
+	//  -1´ú±íÎ´ÕÒµ½
+	*x = -1;
+	*y = -1;
+	for (int row = 0; row < 11; row++)
+	{
+		for (int col = 0; col < 10; col)
+		{
+			if (array[row][col] == num)
+			{
+				*x = row;
+				*y = col;
+				return;
+			}
+		}
+	}
+}

@@ -45,6 +45,18 @@
     <ClInclude Include="decimalToBinary.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="primeNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="insertData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
