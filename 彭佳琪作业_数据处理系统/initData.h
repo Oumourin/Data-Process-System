@@ -20,7 +20,7 @@ void initArray(int  array[11][10])
 				}
 				else
 				{
-					array[row][col] = rand() % 100 + 1;
+					array[row][col] = rand() % 1000 + 1;
 				}
 			}
 		arraySize = 100;
