@@ -4,41 +4,44 @@
 
 bool isPrime(int num)
 {
-	bool primeFlag = true;
 	if (num < 2)
 	{
-		primeFlag = false;
+		return false;
 	}
 	else
 	{
-		for (int i = 2; i < int(sqrt(num)); i++)
+		for (int i = 2; i < num; i++)
 		{
-			if (0 == num / i)
+			if (0 == (num % i))
 			{
-				primeFlag = false;
-				break;
+				if (i == num)
+				{
+					return true;
+				}
+				return false;
 			}
 		}
 	}
-	return primeFlag;
+	return true;
 }
 
 void transferPrimeSum(int num)
 {
-	if (isPrime(num))
+	if (0 == num%2)
 	{
-		for (int i = 2; i < int(sqrt(num)); i++)
+		for (int i = 2; i < num ; i++)
 		{
 			int addend = num - i;
-			if (isPrime(num)&&isPrime(addend))
+			if (isPrime(i) && isPrime(addend))
 			{
 				printf("数%d为素数%d和素数%d之和\n", num, i,addend);
+				break;
 			}
 		}
 	}
 	else
 	{
-		printf("数%d不是素数！\n", num);
+		printf("数%d不是偶数！\n", num);
 	}
 }
 
