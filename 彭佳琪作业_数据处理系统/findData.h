@@ -31,7 +31,7 @@ void findDataWithCoordinate(int array[11][10], int num, int * x, int * y)
 	*y = -1;
 	for (int row = 0; row < 11; row++)
 	{
-		for (int col = 0; col < 10; col)
+		for (int col = 0; col < 10; col++)
 		{
 			if (array[row][col] == num)
 			{
@@ -41,4 +41,5 @@ void findDataWithCoordinate(int array[11][10], int num, int * x, int * y)
 			}
 		}
 	}
+	return;
 }
