@@ -1,4 +1,9 @@
 # Data-Process-System
+
+
+**项目准守GPLV3协议**
+
+
 ##  功能说明
 
 ###  初始化函数
